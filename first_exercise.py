@@ -8,6 +8,7 @@ structure = parser.get_structure("Trypsin", "2PTC.pdb")
 # for atoms in structure[0]["E"][16]:
 #     print atoms.get_vector()
 
+
 def distance_residues(res1, res2):
     close_atoms = 0
     for atom1 in res1:
