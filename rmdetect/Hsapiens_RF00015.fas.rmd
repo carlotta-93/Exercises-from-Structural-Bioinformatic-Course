@@ -1,0 +1,20 @@
+#- - - - - - - - - - - - - - - - - - - - - - - - - - -
+#
+# script: /home/corinna/rmdetect_0.0.3/rmdetect.py
+# parameters:
+#	--out=./Hsapiens_RF00015.fas.rmd
+#	Hsapiens_RF00015.fasta
+#
+# scan started at:     Thu Nov 19 16:56:56 2015
+# scan ended at:       Thu Nov 19 16:56:58 2015
+# total running time:  1 s
+#- - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# meta data:
+##seq_file = Hsapiens_RF00015.fasta
+##both_strands = NO
+##sequences = 1
+##tests_all = 62254
+##tests_pairs = 2043
+KT	1.0	H.sapiens_RF00015_U4snRNA	0-141	1.91407E+01	2.32800E-10	4.90120E-01	40/40;26/26	CCGAGG;CCAAUGA.GG	40;;;;;/26;;;;;;;-;33;	40;;;;;/26;;;;;;;-;33;	
+TGA	1.0	H.sapiens_RF00015_U4snRNA	0-141	1.02721E+01	2.74200E-04	2.48728E-03	30/30;41/41	UGAG;CGAG	30;;;/41;;;	30;;;/41;;;	
