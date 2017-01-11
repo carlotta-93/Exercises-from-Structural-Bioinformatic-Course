@@ -7,18 +7,7 @@ for line in open('A201G_WT_MT_156-236_dpp.txt').readlines():
 matrix_float = [[float(y) for y in x] for x in mat]
 print matrix_float
 
-# mat_float = []
-# # transform the matrix of strings in matrix of floats
-# for el in mat:
-#     for i in el:
-#         mat_float.append(float(i))
-
-# for el in matrice:
-#     print el
-
 my_array = np.array(matrix_float)
-# for el in my_array:
-#     print el
 
 coordinates = np.argmax(my_array)
 print 'coordinates of max elem in the whole matrix: ' + str(coordinates)
@@ -26,6 +15,7 @@ print 'coordinates of max elem in the whole matrix, tuple: ' + str(np.unravel_in
 
 tri_upper_diagonal = np.triu(my_array, k=0)
 print 'the highest probability in the wild type is: ' + str(np.amax(tri_upper_diagonal))
+# Converts a flat index or array of flat indices into a tuple of coordinate arrays - give dimension as 2nd arguments
 coordinates_max_val = np.unravel_index(np.argmax(tri_upper_diagonal), tri_upper_diagonal.shape)
 print 'coordinates of max elem in the upper triangle: ' + str(coordinates_max_val)
 
