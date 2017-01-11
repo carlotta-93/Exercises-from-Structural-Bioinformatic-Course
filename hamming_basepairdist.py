@@ -61,6 +61,16 @@ differences2 = len(set(bases_wt2).symmetric_difference(set(bases_mt2)))
 print "base-pair distance: " + str(differences2)
 
 
+print "Case A201G: "
+print "hamming distance: " + str(hamming_dist(a201g_mt, a201g_wt))
+bases_wt3 = base_pair_dist(a201g_wt)
+bases_mt3 = base_pair_dist(a201g_mt)
+print bases_mt3
+print bases_wt3
+# differences2 = 2*sum(a != b for a, b in zip(bases_wt2, bases_mt2))
+# differences2 += abs(len(bases_mt2) - len(bases_wt2))
+differences3 = len(set(bases_wt3).symmetric_difference(set(bases_mt3)))
+print "base-pair distance: " + str(differences3)
 
 
 
