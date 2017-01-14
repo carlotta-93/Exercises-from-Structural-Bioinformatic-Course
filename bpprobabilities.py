@@ -31,3 +31,10 @@ array_p_five = np.where(my_array > 0.5)
 array_p_eight = np.where(my_array > 0.8)
 print len(my_array[array_p_five])
 print len(my_array[array_p_eight])
+
+print "part 4 on lower array: "
+array_p_five2 = np.where(tri_lower_diagonal > 0.5)
+array_p_eight2 = np.where(tri_lower_diagonal > 0.8)
+print len(tri_lower_diagonal[array_p_five2])
+print len(tri_lower_diagonal[array_p_eight2])
+
