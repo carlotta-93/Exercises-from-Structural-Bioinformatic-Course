@@ -7,6 +7,7 @@
 import math
 import numpy as np
 
+
 def rotation_matrix(axis, theta):
     """
     Return the rotation matrix associated with counterclockwise rotation about

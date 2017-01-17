@@ -5,7 +5,6 @@ structure = parser.get_structure("2PTC", "2PTC.pdb")
 
 
 def centroid(residue):
-
     """calculates the centroid of the residue given as parameter """
     # Bio.PDB.Vector to calculate center-of-mass
     center_of_mass = PDB.Vector(0, 0, 0)

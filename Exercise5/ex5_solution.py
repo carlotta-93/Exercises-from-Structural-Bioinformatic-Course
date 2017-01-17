@@ -60,7 +60,7 @@ io.save('2PTC_split.pdb')
 # Rotation matrix that rotates 90 degrees counterclockwise around
 # the axis between enzyme and inhibitor. The rotation is around the origin.
 
-R = np.array([[ 0.01411312,  0.51660633,  0.85610672],
+R = np.array([[0.01411312,  0.51660633,  0.85610672],
               [-0.30164955,  0.81850121, -0.48894101],
               [-0.95331441, -0.25134372,  0.16738567]])
 
